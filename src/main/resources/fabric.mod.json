@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "vc_core",
+  "version": "${version}",
+
+  "name": "Voltcraft Core",
+  "description": "",
+  "authors": [
+    "VoxelDragon6"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GNU LGPL v3",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.timeworndevs.voltcraft.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
