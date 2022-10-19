@@ -23,6 +23,9 @@ public class Common {
         appendOres("nickel");
         appendOres("silver");
         appendOres("lead");
+        makeList("bronze");
+        makeList("invar");
+        makeList("steel");
     }
     public static void makeList(String id) {
         Registryhelper.registerMaterialBlock(new Identifier(Main.MOD_ID, id + "_block"), new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)));
