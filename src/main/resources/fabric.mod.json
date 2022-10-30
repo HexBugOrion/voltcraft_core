@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.timeworndevs.voltcraft.Main"
+    ],
+    "client": [
+      "net.timeworndevs.voltcraft.Client"
     ]
   },
   "mixins": [

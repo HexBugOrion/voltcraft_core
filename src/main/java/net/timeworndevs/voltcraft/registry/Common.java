@@ -11,9 +11,13 @@ import net.timeworndevs.voltcraft.Main;
 
 public class Common {
     public static final Item MATERIALS_ICON = new Item(new Item.Settings());
+    public static final Item PLACEHOLDERITEM1 = new Item(new Item.Settings());
+    public static final Item PLACEHOLDERITEM2 = new Item(new Item.Settings());
     public static final Block POWERED_FURNACE_BLOCK = new Block(AbstractBlock.Settings.of(Material.METAL).strength(3.5f,3.5f).sounds(BlockSoundGroup.ANVIL));
     public static void register() {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "materials_icon"), MATERIALS_ICON);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "placeholderitem1"), PLACEHOLDERITEM1);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "placeholderitem2"), PLACEHOLDERITEM2);
         basicMaterialList();
 
     }
