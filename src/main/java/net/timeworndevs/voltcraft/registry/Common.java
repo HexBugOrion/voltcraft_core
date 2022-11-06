@@ -3,7 +3,9 @@ package net.timeworndevs.voltcraft.registry;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -18,6 +20,11 @@ public class Common {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "materials_icon"), MATERIALS_ICON);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "placeholderitem1"), PLACEHOLDERITEM1);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "placeholderitem2"), PLACEHOLDERITEM2);
+
+        Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "powered_furnace"), POWERED_FURNACE_BLOCK);
+
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "powered_furnace"), new BlockItem(POWERED_FURNACE_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+
         basicMaterialList();
 
     }

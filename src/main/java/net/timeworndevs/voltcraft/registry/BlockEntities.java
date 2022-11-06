@@ -12,6 +12,6 @@ public class BlockEntities {
     public static BlockEntityType<PoweredFurnaceBlockEntity> POWERED_FURNACE;
 
     public static void register(){
-        POWERED_FURNACE = Registry.register(Registry.BLOCK_ENTITY_TYPE, new Identifier(Main.MOD_ID, "powered_furnace_entity"), FabricBlockEntityTypeBuilder.create(PoweredFurnaceBlockEntity::new, Common.POWERED_FURNACE_BLOCK).build(null));
+        POWERED_FURNACE = Registry.register(Registry.BLOCK_ENTITY_TYPE, new Identifier(Main.MOD_ID, "powered_furnace"), FabricBlockEntityTypeBuilder.create(PoweredFurnaceBlockEntity::new, Common.POWERED_FURNACE_BLOCK).build(null));
     }
 }

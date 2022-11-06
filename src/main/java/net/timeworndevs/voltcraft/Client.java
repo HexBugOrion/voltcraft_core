@@ -1,4 +1,15 @@
 package net.timeworndevs.voltcraft;
 
-public class Client {
+import net.fabricmc.api.ClientModInitializer;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
+import net.timeworndevs.voltcraft.screen.PoweredFurnaceScreen;
+import net.timeworndevs.voltcraft.screen.VCScreenHandler;
+
+public class Client implements ClientModInitializer {
+
+
+    @Override
+    public void onInitializeClient() {
+        HandledScreens.register(VCScreenHandler.POWERED_FURNACE_SCREENHANDLER, PoweredFurnaceScreen::new);
+    }
 }
