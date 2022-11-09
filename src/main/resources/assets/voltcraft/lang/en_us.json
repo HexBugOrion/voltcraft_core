@@ -1,0 +1,10 @@
+{
+  "comment1": "base metals/gems",
+  "block.voltcraft.lead_block": "Block Of Lead",
+  "comment2": "alloys",
+  "block.voltcraft.bronze_block": "Block Of Bronze",
+  "block.voltcraft.invar_block": "Block Of Invar",
+  "block.voltcraft.steel_block": "Block Of Steel",
+  "comment3": "gui",
+  "container.voltcraft.powered-furnace": "Powered Furnace"
+}

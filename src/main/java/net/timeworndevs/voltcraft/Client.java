@@ -10,6 +10,5 @@ public class Client implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        HandledScreens.register(VCScreenHandler.POWERED_FURNACE_SCREENHANDLER, PoweredFurnaceScreen::new);
     }
 }

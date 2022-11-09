@@ -20,7 +20,7 @@ import net.timeworndevs.voltcraft.registry.BlockEntities;
 import org.jetbrains.annotations.Nullable;
 
 public class PoweredFurnaceBlock extends BlockWithEntity implements BlockEntityProvider {
-    protected PoweredFurnaceBlock(Settings settings) {
+    public PoweredFurnaceBlock(Settings settings) {
         super(settings);
     }
 

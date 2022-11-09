@@ -83,6 +83,7 @@ public class PoweredFurnaceBlockEntity extends BlockEntity implements NamedScree
         this.progress = 0;
     }
 
+
     @Override
     public DefaultedList<ItemStack> getItems() {
         return this.inventory;
