@@ -38,12 +38,12 @@ public class Common {
 
     /*Storage Blocks*/
 
-    public static final Block LEAD_BLOCK = Registryhelper.makeBlock("lead_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block NICKEL_BLOCK = Registryhelper.makeBlock("nickel_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block SILVER_BLOCK = Registryhelper.makeBlock("silver_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block BRONZE_BLOCK = Registryhelper.makeBlock("bronze_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block INVAR_BLOCK = Registryhelper.makeBlock("invar_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block STEEL_BLOCK = Registryhelper.makeBlock("steel_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
+    public static final Block LEAD_BLOCK = Registryhelper.makeBlock("lead_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
+    public static final Block NICKEL_BLOCK = Registryhelper.makeBlock("nickel_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
+    public static final Block SILVER_BLOCK = Registryhelper.makeBlock("silver_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
+    public static final Block BRONZE_BLOCK = Registryhelper.makeBlock("bronze_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
+    public static final Block INVAR_BLOCK = Registryhelper.makeBlock("invar_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
+    public static final Block STEEL_BLOCK = Registryhelper.makeBlock("steel_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
 
     /*Nuggets*/
 
@@ -113,8 +113,8 @@ public class Common {
 
     /*Raw Ore Blocks*/
 
-    public static final Block RAW_LEAD_BLOCK = Registryhelper.makeBlock("raw_lead_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block RAW_NICKEL_BLOCK = Registryhelper.makeBlock("raw_nickel_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block RAW_SILVER_BLOCK = Registryhelper.makeBlock("raw_silver_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
+    public static final Block RAW_LEAD_BLOCK = Registryhelper.makeBlock("raw_lead_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
+    public static final Block RAW_NICKEL_BLOCK = Registryhelper.makeBlock("raw_nickel_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
+    public static final Block RAW_SILVER_BLOCK = Registryhelper.makeBlock("raw_silver_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
 
 }
