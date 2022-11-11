@@ -20,12 +20,19 @@ public class Common {
     /*Machines*/
     public static final Block POWERED_FURNACE_BLOCK = Registryhelper.makeBlock("powered_furnace", new PoweredFurnaceBlock(AbstractBlock.Settings.of(Material.METAL).strength(3.5f,3.5f).sounds(BlockSoundGroup.ANVIL)), Groups.MACHINES);
 
+    //todo: Re-order the resources based on type rather than position
+
     /*Ores*/
 
-    public static final Block LEAD_ORE = Registryhelper.makeBlock("lead_ore", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block NICKEL_ORE = Registryhelper.makeBlock("nickel_ore", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
-    public static final Block SILVER_ORE = Registryhelper.makeBlock("silver_ore", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f)), Groups.MATERIALS);
+    public static final Block LEAD_ORE = Registryhelper.makeBlock("lead_ore", new Block(AbstractBlock.Settings.of(Material.STONE).strength(5.0f,6.0f).sounds(BlockSoundGroup.STONE)), Groups.MATERIALS);
+    public static final Block NICKEL_ORE = Registryhelper.makeBlock("nickel_ore", new Block(AbstractBlock.Settings.of(Material.STONE).strength(5.0f,6.0f).sounds(BlockSoundGroup.STONE)), Groups.MATERIALS);
+    public static final Block SILVER_ORE = Registryhelper.makeBlock("silver_ore", new Block(AbstractBlock.Settings.of(Material.STONE).strength(5.0f,6.0f).sounds(BlockSoundGroup.STONE)), Groups.MATERIALS);
 
+    /*Deepslate Ores*/
+
+    public static final Block DEEPSLATE_LEAD_ORE = Registryhelper.makeBlock("deepslate_lead_ore", new Block(AbstractBlock.Settings.of(Material.STONE).strength(5.0f,6.0f).sounds(BlockSoundGroup.DEEPSLATE)), Groups.MATERIALS);
+    public static final Block DEEPSLATE_NICKEL_ORE = Registryhelper.makeBlock("deepslate_nickel_ore", new Block(AbstractBlock.Settings.of(Material.STONE).strength(5.0f,6.0f).sounds(BlockSoundGroup.DEEPSLATE)), Groups.MATERIALS);
+    public static final Block DEEPSLATE_SILVER_ORE = Registryhelper.makeBlock("deepslate_silver_ore", new Block(AbstractBlock.Settings.of(Material.STONE).strength(5.0f,6.0f).sounds(BlockSoundGroup.DEEPSLATE)), Groups.MATERIALS);
 
     /*Ingots*/
     public static final Item LEAD_INGOT = Registryhelper.makeItem("lead_ingot", new Item(new FabricItemSettings().group(Groups.MATERIALS)));
@@ -113,8 +120,8 @@ public class Common {
 
     /*Raw Ore Blocks*/
 
-    public static final Block RAW_LEAD_BLOCK = Registryhelper.makeBlock("raw_lead_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
-    public static final Block RAW_NICKEL_BLOCK = Registryhelper.makeBlock("raw_nickel_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
-    public static final Block RAW_SILVER_BLOCK = Registryhelper.makeBlock("raw_silver_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.METAL)), Groups.MATERIALS);
+    public static final Block RAW_LEAD_BLOCK = Registryhelper.makeBlock("raw_lead_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.STONE)), Groups.MATERIALS);
+    public static final Block RAW_NICKEL_BLOCK = Registryhelper.makeBlock("raw_nickel_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.STONE)), Groups.MATERIALS);
+    public static final Block RAW_SILVER_BLOCK = Registryhelper.makeBlock("raw_silver_block", new Block(AbstractBlock.Settings.of(Material.METAL).strength(5.0f,6.0f).sounds(BlockSoundGroup.STONE)), Groups.MATERIALS);
 
 }
