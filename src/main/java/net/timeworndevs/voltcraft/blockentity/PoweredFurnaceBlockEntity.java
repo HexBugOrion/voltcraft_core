@@ -28,7 +28,7 @@ public class PoweredFurnaceBlockEntity extends BlockEntity implements NamedScree
     private int progress = 0;
     private int maxProgress = 72;
 
-    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(3, ItemStack.EMPTY);
+    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(2, ItemStack.EMPTY);
 
     public PoweredFurnaceBlockEntity(BlockPos pos, BlockState state) {
         super(BlockEntities.POWERED_FURNACE,pos, state);

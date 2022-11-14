@@ -1,9 +1,19 @@
 {
   "comment1": "base metals/gems",
   "block.voltcraft.lead_block": "Block Of Lead",
-  "block.voltcraft.nickel_block": "Block Of Nickel",
-  "block.voltcraft.silver_block": "Block Of Silver",
   "block.voltcraft.raw_lead_block": "Block Of Raw Lead",
+  "block.voltcraft.lead_ore": "Lead Ore",
+  "block.voltcraft.deepslate_lead_ore": "Deepslate Lead Ore",
+
+  "block.voltcraft.nickel_block": "Block Of Nickel",
+  "block.voltcraft.raw_nickel_block": "Block Of Raw Nickel",
+  "block.voltcraft.nickel_ore": "Nickel Ore",
+  "block.voltcraft.deepslate_nickel_ore": "Deepslate Nickel Ore",
+
+  "block.voltcraft.silver_block": "Block Of Silver",
+  "block.voltcraft.raw_silver_block": "Block Of Raw Silver",
+  "block.voltcraft.silver_ore": "Silver Ore",
+  "block.voltcraft.deepslate_silver_ore": "Deepslate Silver Ore",
   "comment2": "alloys",
   "block.voltcraft.bronze_block": "Block Of Bronze",
   "block.voltcraft.invar_block": "Block Of Invar",
