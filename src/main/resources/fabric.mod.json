@@ -13,8 +13,8 @@
     "sources": ""
   },
 
-  "license": "GNU LGPL v3",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/voltcraft/mod_icon.png",
 
   "environment": "*",
   "entrypoints": {
