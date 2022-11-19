@@ -22,6 +22,5 @@ public class Main implements ModInitializer {
 		VCScreenHandler.register();
 		Registryhelper.register();
 		OreGeneration.generateOres();
-		HandledScreens.register(VCScreenHandler.POWERED_FURNACE_SCREENHANDLER, PoweredFurnaceScreen::new);
 	}
 }
