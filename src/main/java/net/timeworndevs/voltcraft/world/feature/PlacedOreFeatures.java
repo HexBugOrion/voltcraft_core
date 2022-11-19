@@ -30,11 +30,11 @@ public class PlacedOreFeatures {
 
     static {
 
-        NICKEL_ORE_UPPER = PlacedFeatures.register("nickel_ore_upper", FeatureRegistry.ORE_NICKEL, modifiersWithCount(72, HeightRangePlacementModifier.trapezoid(YOffset.fixed(72), YOffset.fixed(376))));
-        NICKEL_ORE_MIDDLE = PlacedFeatures.register("nickel_ore_middle", FeatureRegistry.ORE_NICKEL, modifiersWithCount(8, HeightRangePlacementModifier.trapezoid(YOffset.fixed(-32), YOffset.fixed(48))));
-        NICKEL_ORE_SMALL = PlacedFeatures.register("nickel_ore_small", FeatureRegistry.ORE_NICKEL_SMALL, modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
+        NICKEL_ORE_UPPER = PlacedFeatures.register("nickel_ore_upper", FeatureRegistry.ORE_NICKEL, modifiersWithCount(62, HeightRangePlacementModifier.trapezoid(YOffset.fixed(72), YOffset.fixed(376))));
+        NICKEL_ORE_MIDDLE = PlacedFeatures.register("nickel_ore_middle", FeatureRegistry.ORE_NICKEL, modifiersWithCount(6, HeightRangePlacementModifier.trapezoid(YOffset.fixed(-32), YOffset.fixed(48))));
+        NICKEL_ORE_SMALL = PlacedFeatures.register("nickel_ore_small", FeatureRegistry.ORE_NICKEL_SMALL, modifiersWithCount(6, HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
-        LEAD_ORE = PlacedFeatures.register("lead_ore", FeatureRegistry.ORE_LEAD, modifiersWithCount(50, HeightRangePlacementModifier.trapezoid(YOffset.getBottom(), YOffset.fixed(50))));
+        LEAD_ORE = PlacedFeatures.register("lead_ore", FeatureRegistry.ORE_LEAD, modifiersWithCount(25, HeightRangePlacementModifier.trapezoid(YOffset.getBottom(), YOffset.fixed(50))));
         LEAD_ORE_FOREST = PlacedFeatures.register("lead_ore_forest", FeatureRegistry.ORE_LEAD_FOREST, modifiersWithCount(20, HeightRangePlacementModifier.uniform(YOffset.fixed(50), YOffset.fixed(80))));
     }
 }

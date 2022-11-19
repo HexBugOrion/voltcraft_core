@@ -23,6 +23,9 @@
     ],
     "client": [
       "net.timeworndevs.voltcraft.Client"
+    ],
+    "fabric-datagen": [
+      "net.timeworndevs.vcdatagen.DataGen"
     ]
   },
   "mixins": [
